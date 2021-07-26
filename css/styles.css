@@ -2,6 +2,12 @@
     margin:0;
     padding: 0;
 }
+body{
+    background-color: #3f0002;
+}
+.line{
+    padding-bottom: 33px;
+}
 header{
     padding: 20px 0;
     background-color: #af2024;
@@ -11,12 +17,14 @@ section.content{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 821px;
+    position: relative;
 }
 
 .logo{
     max-width: 879px;
     margin: auto;
     padding-top: 20px;
+    margin-bottom: 9px;
 }
 .social_icons{
     position: fixed;
@@ -43,8 +51,9 @@ section.content{
 .windowed_container{
     max-width: 711px;
     margin: auto;
-    position: relative;
+    position: absolute;
     z-index: 1;
+    left:30%;
 }
 .head_bg_text{
     background-color: #98161b;
@@ -59,7 +68,7 @@ section.content{
 .video_text_cont{
     width: 613px;
     margin: auto;
-    padding:63px 0px 128px;
+    padding:63px 75px 128px;
 }
 .video{
     background-color: #e7e7e7;
@@ -69,6 +78,7 @@ section.content{
     box-sizing: border-box;
     margin-bottom: 30px;
     position: relative;
+    right:20px;
 }
 .video button{
     position: absolute;
@@ -103,6 +113,7 @@ section.content{
 .video_text_cont p{
     color:#98161b;
 }
+
 footer{
     padding: 225px 0;
     background-color: #000000;
