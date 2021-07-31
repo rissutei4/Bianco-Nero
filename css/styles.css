@@ -4,20 +4,20 @@
 }
 body{
     background-color: #3f0002;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
 }
-.line{
-    padding-bottom: 33px;
-}
+
 header{
     padding: 20px 0;
     background-color: #af2024;
 }
 section.content{
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     min-height: 821px;
     position: relative;
+    padding-bottom: 33px;
 }
 
 .logo{
@@ -51,9 +51,9 @@ section.content{
 .windowed_container{
     max-width: 711px;
     margin: auto;
-    position: absolute;
+    position: relative;
     z-index: 1;
-    left:30%;
+    top: 40px;
 }
 .head_bg_text{
     background-color: #98161b;
@@ -112,6 +112,7 @@ section.content{
 }
 .video_text_cont p{
     color:#98161b;
+    margin-bottom: 18px;
 }
 
 footer{
